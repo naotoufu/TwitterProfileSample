@@ -27,7 +27,6 @@ class DetailViewController: UIViewController {
 
         headerView = UINib(nibName: "HeaderView", bundle: nil).instantiate(withOwner: nil, options: nil)[0] as? HeaderView
         view.addSubview(headerView)
-        headerView.delegate = self
     }
     
     override func viewWillLayoutSubviews() {
@@ -57,11 +56,4 @@ extension DetailViewController : UIPageViewControllerDataSource {
     }
     
     
-}
-
-extension DetailViewController : HeaderViewDelegate {
-    func headerInScrollViewDidScroll(_ scrollView: UIScrollView) {
-        isWaistScroll = true
-        childViewController.tableView.contentOffset.y += scrollView.contentOffset.y
-    }
 }
