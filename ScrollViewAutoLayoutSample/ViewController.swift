@@ -15,6 +15,9 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view, typically from a nib.
     }
 
-
+    @IBAction func tappedButton(_ sender: Any) {
+        present(DetailViewController(), animated: true, completion: nil)
+    }
+    
 }
 
