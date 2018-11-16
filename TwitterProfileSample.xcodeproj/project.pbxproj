@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		5C1CEFDB219C519000F73CFD /* TouchTransparentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C1CEFDA219C519000F73CFD /* TouchTransparentView.swift */; };
+		5C1CEFDD219F0B2400F73CFD /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5C1CEFDC219F0B2400F73CFD /* Default-568h@2x.png */; };
 		F8150018219C195500A0CCA5 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8150016219C195500A0CCA5 /* DetailViewController.swift */; };
 		F8150019219C195500A0CCA5 /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F8150017219C195500A0CCA5 /* DetailViewController.xib */; };
 		F8150020219C1A2900A0CCA5 /* PageInnerTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F815001E219C1A2900A0CCA5 /* PageInnerTableViewController.swift */; };
@@ -19,8 +20,8 @@
 		F8B1B012219BFBDE0046992E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8B1B010219BFBDE0046992E /* Main.storyboard */; };
 		F8B1B014219BFBE10046992E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8B1B013219BFBE10046992E /* Assets.xcassets */; };
 		F8B1B017219BFBE10046992E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8B1B015219BFBE10046992E /* LaunchScreen.storyboard */; };
-		F8B1B022219BFBE10046992E /* ScrollViewAutoLayoutSampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8B1B021219BFBE10046992E /* ScrollViewAutoLayoutSampleTests.swift */; };
-		F8B1B02D219BFBE20046992E /* ScrollViewAutoLayoutSampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8B1B02C219BFBE20046992E /* ScrollViewAutoLayoutSampleUITests.swift */; };
+		F8B1B022219BFBE10046992E /* TwitterProfileSampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8B1B021219BFBE10046992E /* TwitterProfileSampleTests.swift */; };
+		F8B1B02D219BFBE20046992E /* TwitterProfileSampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8B1B02C219BFBE20046992E /* TwitterProfileSampleUITests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,24 +43,25 @@
 
 /* Begin PBXFileReference section */
 		5C1CEFDA219C519000F73CFD /* TouchTransparentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TouchTransparentView.swift; sourceTree = "<group>"; };
+		5C1CEFDC219F0B2400F73CFD /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		F8150016219C195500A0CCA5 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		F8150017219C195500A0CCA5 /* DetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetailViewController.xib; sourceTree = "<group>"; };
 		F815001E219C1A2900A0CCA5 /* PageInnerTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageInnerTableViewController.swift; sourceTree = "<group>"; };
 		F815001F219C1A2900A0CCA5 /* PageInnerTableViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PageInnerTableViewController.xib; sourceTree = "<group>"; };
 		F8150022219C1E5600A0CCA5 /* HeaderView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HeaderView.xib; sourceTree = "<group>"; };
 		F8150024219C1EE000A0CCA5 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
-		F8B1B009219BFBDE0046992E /* ScrollViewAutoLayoutSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScrollViewAutoLayoutSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8B1B009219BFBDE0046992E /* TwitterProfileSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TwitterProfileSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8B1B00C219BFBDE0046992E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F8B1B00E219BFBDE0046992E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F8B1B011219BFBDE0046992E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F8B1B013219BFBE10046992E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F8B1B016219BFBE10046992E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F8B1B018219BFBE10046992E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F8B1B01D219BFBE10046992E /* ScrollViewAutoLayoutSampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScrollViewAutoLayoutSampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		F8B1B021219BFBE10046992E /* ScrollViewAutoLayoutSampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewAutoLayoutSampleTests.swift; sourceTree = "<group>"; };
+		F8B1B01D219BFBE10046992E /* TwitterProfileSampleTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TwitterProfileSampleTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8B1B021219BFBE10046992E /* TwitterProfileSampleTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwitterProfileSampleTests.swift; sourceTree = "<group>"; };
 		F8B1B023219BFBE20046992E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F8B1B028219BFBE20046992E /* ScrollViewAutoLayoutSampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ScrollViewAutoLayoutSampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		F8B1B02C219BFBE20046992E /* ScrollViewAutoLayoutSampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrollViewAutoLayoutSampleUITests.swift; sourceTree = "<group>"; };
+		F8B1B028219BFBE20046992E /* TwitterProfileSampleUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TwitterProfileSampleUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8B1B02C219BFBE20046992E /* TwitterProfileSampleUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwitterProfileSampleUITests.swift; sourceTree = "<group>"; };
 		F8B1B02E219BFBE20046992E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -91,9 +93,10 @@
 		F8B1B000219BFBDE0046992E = {
 			isa = PBXGroup;
 			children = (
-				F8B1B00B219BFBDE0046992E /* ScrollViewAutoLayoutSample */,
-				F8B1B020219BFBE10046992E /* ScrollViewAutoLayoutSampleTests */,
-				F8B1B02B219BFBE20046992E /* ScrollViewAutoLayoutSampleUITests */,
+				5C1CEFDC219F0B2400F73CFD /* Default-568h@2x.png */,
+				F8B1B00B219BFBDE0046992E /* TwitterProfileSample */,
+				F8B1B020219BFBE10046992E /* TwitterProfileSampleTest */,
+				F8B1B02B219BFBE20046992E /* TwitterProfileSampleUITests */,
 				F8B1B00A219BFBDE0046992E /* Products */,
 			);
 			sourceTree = "<group>";
@@ -101,14 +104,14 @@
 		F8B1B00A219BFBDE0046992E /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F8B1B009219BFBDE0046992E /* ScrollViewAutoLayoutSample.app */,
-				F8B1B01D219BFBE10046992E /* ScrollViewAutoLayoutSampleTests.xctest */,
-				F8B1B028219BFBE20046992E /* ScrollViewAutoLayoutSampleUITests.xctest */,
+				F8B1B009219BFBDE0046992E /* TwitterProfileSample.app */,
+				F8B1B01D219BFBE10046992E /* TwitterProfileSampleTests.xctest */,
+				F8B1B028219BFBE20046992E /* TwitterProfileSampleUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		F8B1B00B219BFBDE0046992E /* ScrollViewAutoLayoutSample */ = {
+		F8B1B00B219BFBDE0046992E /* TwitterProfileSample */ = {
 			isa = PBXGroup;
 			children = (
 				F8B1B00C219BFBDE0046992E /* AppDelegate.swift */,
@@ -125,33 +128,34 @@
 				F8B1B015219BFBE10046992E /* LaunchScreen.storyboard */,
 				F8B1B018219BFBE10046992E /* Info.plist */,
 			);
-			path = ScrollViewAutoLayoutSample;
+			path = TwitterProfileSample;
 			sourceTree = "<group>";
 		};
-		F8B1B020219BFBE10046992E /* ScrollViewAutoLayoutSampleTests */ = {
+		F8B1B020219BFBE10046992E /* TwitterProfileSampleTest */ = {
 			isa = PBXGroup;
 			children = (
-				F8B1B021219BFBE10046992E /* ScrollViewAutoLayoutSampleTests.swift */,
+				F8B1B021219BFBE10046992E /* TwitterProfileSampleTests.swift */,
 				F8B1B023219BFBE20046992E /* Info.plist */,
 			);
+			name = TwitterProfileSampleTest;
 			path = ScrollViewAutoLayoutSampleTests;
 			sourceTree = "<group>";
 		};
-		F8B1B02B219BFBE20046992E /* ScrollViewAutoLayoutSampleUITests */ = {
+		F8B1B02B219BFBE20046992E /* TwitterProfileSampleUITests */ = {
 			isa = PBXGroup;
 			children = (
-				F8B1B02C219BFBE20046992E /* ScrollViewAutoLayoutSampleUITests.swift */,
+				F8B1B02C219BFBE20046992E /* TwitterProfileSampleUITests.swift */,
 				F8B1B02E219BFBE20046992E /* Info.plist */,
 			);
-			path = ScrollViewAutoLayoutSampleUITests;
+			path = TwitterProfileSampleUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		F8B1B008219BFBDE0046992E /* ScrollViewAutoLayoutSample */ = {
+		F8B1B008219BFBDE0046992E /* TwitterProfileSample */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F8B1B031219BFBE20046992E /* Build configuration list for PBXNativeTarget "ScrollViewAutoLayoutSample" */;
+			buildConfigurationList = F8B1B031219BFBE20046992E /* Build configuration list for PBXNativeTarget "TwitterProfileSample" */;
 			buildPhases = (
 				F8B1B005219BFBDE0046992E /* Sources */,
 				F8B1B006219BFBDE0046992E /* Frameworks */,
@@ -161,14 +165,14 @@
 			);
 			dependencies = (
 			);
-			name = ScrollViewAutoLayoutSample;
+			name = TwitterProfileSample;
 			productName = ScrollViewAutoLayoutSample;
-			productReference = F8B1B009219BFBDE0046992E /* ScrollViewAutoLayoutSample.app */;
+			productReference = F8B1B009219BFBDE0046992E /* TwitterProfileSample.app */;
 			productType = "com.apple.product-type.application";
 		};
-		F8B1B01C219BFBE10046992E /* ScrollViewAutoLayoutSampleTests */ = {
+		F8B1B01C219BFBE10046992E /* TwitterProfileSampleTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F8B1B034219BFBE20046992E /* Build configuration list for PBXNativeTarget "ScrollViewAutoLayoutSampleTests" */;
+			buildConfigurationList = F8B1B034219BFBE20046992E /* Build configuration list for PBXNativeTarget "TwitterProfileSampleTests" */;
 			buildPhases = (
 				F8B1B019219BFBE10046992E /* Sources */,
 				F8B1B01A219BFBE10046992E /* Frameworks */,
@@ -179,14 +183,14 @@
 			dependencies = (
 				F8B1B01F219BFBE10046992E /* PBXTargetDependency */,
 			);
-			name = ScrollViewAutoLayoutSampleTests;
+			name = TwitterProfileSampleTests;
 			productName = ScrollViewAutoLayoutSampleTests;
-			productReference = F8B1B01D219BFBE10046992E /* ScrollViewAutoLayoutSampleTests.xctest */;
+			productReference = F8B1B01D219BFBE10046992E /* TwitterProfileSampleTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		F8B1B027219BFBE20046992E /* ScrollViewAutoLayoutSampleUITests */ = {
+		F8B1B027219BFBE20046992E /* TwitterProfileSampleUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F8B1B037219BFBE20046992E /* Build configuration list for PBXNativeTarget "ScrollViewAutoLayoutSampleUITests" */;
+			buildConfigurationList = F8B1B037219BFBE20046992E /* Build configuration list for PBXNativeTarget "TwitterProfileSampleUITests" */;
 			buildPhases = (
 				F8B1B024219BFBE20046992E /* Sources */,
 				F8B1B025219BFBE20046992E /* Frameworks */,
@@ -197,9 +201,9 @@
 			dependencies = (
 				F8B1B02A219BFBE20046992E /* PBXTargetDependency */,
 			);
-			name = ScrollViewAutoLayoutSampleUITests;
+			name = TwitterProfileSampleUITests;
 			productName = ScrollViewAutoLayoutSampleUITests;
-			productReference = F8B1B028219BFBE20046992E /* ScrollViewAutoLayoutSampleUITests.xctest */;
+			productReference = F8B1B028219BFBE20046992E /* TwitterProfileSampleUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -225,7 +229,7 @@
 					};
 				};
 			};
-			buildConfigurationList = F8B1B004219BFBDE0046992E /* Build configuration list for PBXProject "ScrollViewAutoLayoutSample" */;
+			buildConfigurationList = F8B1B004219BFBDE0046992E /* Build configuration list for PBXProject "TwitterProfileSample" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -238,9 +242,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F8B1B008219BFBDE0046992E /* ScrollViewAutoLayoutSample */,
-				F8B1B01C219BFBE10046992E /* ScrollViewAutoLayoutSampleTests */,
-				F8B1B027219BFBE20046992E /* ScrollViewAutoLayoutSampleUITests */,
+				F8B1B008219BFBDE0046992E /* TwitterProfileSample */,
+				F8B1B01C219BFBE10046992E /* TwitterProfileSampleTests */,
+				F8B1B027219BFBE20046992E /* TwitterProfileSampleUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -255,6 +259,7 @@
 				F8B1B012219BFBDE0046992E /* Main.storyboard in Resources */,
 				F8150023219C1E5600A0CCA5 /* HeaderView.xib in Resources */,
 				F8150021219C1A2900A0CCA5 /* PageInnerTableViewController.xib in Resources */,
+				5C1CEFDD219F0B2400F73CFD /* Default-568h@2x.png in Resources */,
 				F8150019219C195500A0CCA5 /* DetailViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -293,7 +298,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F8B1B022219BFBE10046992E /* ScrollViewAutoLayoutSampleTests.swift in Sources */,
+				F8B1B022219BFBE10046992E /* TwitterProfileSampleTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -301,7 +306,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F8B1B02D219BFBE20046992E /* ScrollViewAutoLayoutSampleUITests.swift in Sources */,
+				F8B1B02D219BFBE20046992E /* TwitterProfileSampleUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -310,12 +315,12 @@
 /* Begin PBXTargetDependency section */
 		F8B1B01F219BFBE10046992E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = F8B1B008219BFBDE0046992E /* ScrollViewAutoLayoutSample */;
+			target = F8B1B008219BFBDE0046992E /* TwitterProfileSample */;
 			targetProxy = F8B1B01E219BFBE10046992E /* PBXContainerItemProxy */;
 		};
 		F8B1B02A219BFBE20046992E /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = F8B1B008219BFBDE0046992E /* ScrollViewAutoLayoutSample */;
+			target = F8B1B008219BFBDE0046992E /* TwitterProfileSample */;
 			targetProxy = F8B1B029219BFBE20046992E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -461,12 +466,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = ScrollViewAutoLayoutSample/Info.plist;
+				INFOPLIST_FILE = TwitterProfileSample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = test.ScrollViewAutoLayoutSample;
+				PRODUCT_BUNDLE_IDENTIFIER = sample.twitterProfile;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -478,12 +483,12 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = ScrollViewAutoLayoutSample/Info.plist;
+				INFOPLIST_FILE = TwitterProfileSample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = test.ScrollViewAutoLayoutSample;
+				PRODUCT_BUNDLE_IDENTIFIER = sample.twitterProfile;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -496,17 +501,17 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = ScrollViewAutoLayoutSampleTests/Info.plist;
+				INFOPLIST_FILE = TwitterProfileSample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = test.ScrollViewAutoLayoutSampleTests;
+				PRODUCT_BUNDLE_IDENTIFIER = test.TwitterProfileSampleTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ScrollViewAutoLayoutSample.app/ScrollViewAutoLayoutSample";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TwitterProfileSample.app/TwitterProfileSample";
 			};
 			name = Debug;
 		};
@@ -516,17 +521,17 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = ScrollViewAutoLayoutSampleTests/Info.plist;
+				INFOPLIST_FILE = TwitterProfileSample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = test.ScrollViewAutoLayoutSampleTests;
+				PRODUCT_BUNDLE_IDENTIFIER = test.TwitterProfileSampleTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ScrollViewAutoLayoutSample.app/ScrollViewAutoLayoutSample";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TwitterProfileSample.app/TwitterProfileSample";
 			};
 			name = Release;
 		};
@@ -535,13 +540,13 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = ScrollViewAutoLayoutSampleUITests/Info.plist;
+				INFOPLIST_FILE = TwitterProfileSampleUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = test.ScrollViewAutoLayoutSampleUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = test.TwitterProfileSampleUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -554,13 +559,13 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = ScrollViewAutoLayoutSampleUITests/Info.plist;
+				INFOPLIST_FILE = TwitterProfileSampleUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = test.ScrollViewAutoLayoutSampleUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = test.TwitterProfileSampleUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -571,7 +576,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		F8B1B004219BFBDE0046992E /* Build configuration list for PBXProject "ScrollViewAutoLayoutSample" */ = {
+		F8B1B004219BFBDE0046992E /* Build configuration list for PBXProject "TwitterProfileSample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F8B1B02F219BFBE20046992E /* Debug */,
@@ -580,7 +585,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F8B1B031219BFBE20046992E /* Build configuration list for PBXNativeTarget "ScrollViewAutoLayoutSample" */ = {
+		F8B1B031219BFBE20046992E /* Build configuration list for PBXNativeTarget "TwitterProfileSample" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F8B1B032219BFBE20046992E /* Debug */,
@@ -589,7 +594,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F8B1B034219BFBE20046992E /* Build configuration list for PBXNativeTarget "ScrollViewAutoLayoutSampleTests" */ = {
+		F8B1B034219BFBE20046992E /* Build configuration list for PBXNativeTarget "TwitterProfileSampleTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F8B1B035219BFBE20046992E /* Debug */,
@@ -598,7 +603,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F8B1B037219BFBE20046992E /* Build configuration list for PBXNativeTarget "ScrollViewAutoLayoutSampleUITests" */ = {
+		F8B1B037219BFBE20046992E /* Build configuration list for PBXNativeTarget "TwitterProfileSampleUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				F8B1B038219BFBE20046992E /* Debug */,

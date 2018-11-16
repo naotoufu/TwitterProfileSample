@@ -1,15 +1,15 @@
 //
-//  ScrollViewAutoLayoutSampleTests.swift
-//  ScrollViewAutoLayoutSampleTests
+//  TwitterProfileSampleTests.swift
+//  TwitterProfileSampleTests
 //
 //  Created by NaotoIto on 2018/11/14.
 //  Copyright © 2018年 NaotoIto. All rights reserved.
 //
 
 import XCTest
-@testable import ScrollViewAutoLayoutSample
+@testable import TwitterProfileSample
 
-class ScrollViewAutoLayoutSampleTests: XCTestCase {
+class TwitterProfileSampleTests: XCTestCase {
 
     override func setUp() {
         // Put setup code here. This method is called before the invocation of each test method in the class.

@@ -1,6 +1,6 @@
 //
 //  AppDelegate.swift
-//  ScrollViewAutoLayoutSample
+//  TwitterProfileSample
 //
 //  Created by NaotoIto on 2018/11/14.
 //  Copyright © 2018年 NaotoIto. All rights reserved.
