@@ -15,6 +15,8 @@
 		F8150021219C1A2900A0CCA5 /* PageInnerTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = F815001F219C1A2900A0CCA5 /* PageInnerTableViewController.xib */; };
 		F8150023219C1E5600A0CCA5 /* HeaderView.xib in Resources */ = {isa = PBXBuildFile; fileRef = F8150022219C1E5600A0CCA5 /* HeaderView.xib */; };
 		F8150025219C1EE000A0CCA5 /* HeaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8150024219C1EE000A0CCA5 /* HeaderView.swift */; };
+		F815002B219D039000A0CCA5 /* TouchTransparentStackView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F815002A219D039000A0CCA5 /* TouchTransparentStackView.swift */; };
+		F815002D219D0B5000A0CCA5 /* TouchTransparentImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F815002C219D0B5000A0CCA5 /* TouchTransparentImageView.swift */; };
 		F8B1B00D219BFBDE0046992E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8B1B00C219BFBDE0046992E /* AppDelegate.swift */; };
 		F8B1B00F219BFBDE0046992E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8B1B00E219BFBDE0046992E /* ViewController.swift */; };
 		F8B1B012219BFBDE0046992E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F8B1B010219BFBDE0046992E /* Main.storyboard */; };
@@ -50,7 +52,9 @@
 		F815001F219C1A2900A0CCA5 /* PageInnerTableViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PageInnerTableViewController.xib; sourceTree = "<group>"; };
 		F8150022219C1E5600A0CCA5 /* HeaderView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HeaderView.xib; sourceTree = "<group>"; };
 		F8150024219C1EE000A0CCA5 /* HeaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeaderView.swift; sourceTree = "<group>"; };
-		F8B1B009219BFBDE0046992E /* TwitterProfileSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TwitterProfileSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F815002A219D039000A0CCA5 /* TouchTransparentStackView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TouchTransparentStackView.swift; sourceTree = "<group>"; };
+		F815002C219D0B5000A0CCA5 /* TouchTransparentImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TouchTransparentImageView.swift; sourceTree = "<group>"; };
+		F8B1B009219BFBDE0046992E /* ScrollViewAutoLayoutSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScrollViewAutoLayoutSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8B1B00C219BFBDE0046992E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F8B1B00E219BFBDE0046992E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		F8B1B011219BFBDE0046992E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -119,6 +123,8 @@
 				F8150022219C1E5600A0CCA5 /* HeaderView.xib */,
 				F8150024219C1EE000A0CCA5 /* HeaderView.swift */,
 				5C1CEFDA219C519000F73CFD /* TouchTransparentView.swift */,
+				F815002A219D039000A0CCA5 /* TouchTransparentStackView.swift */,
+				F815002C219D0B5000A0CCA5 /* TouchTransparentImageView.swift */,
 				F8150016219C195500A0CCA5 /* DetailViewController.swift */,
 				F8150017219C195500A0CCA5 /* DetailViewController.xib */,
 				F815001E219C1A2900A0CCA5 /* PageInnerTableViewController.swift */,
@@ -287,8 +293,10 @@
 			files = (
 				F8150025219C1EE000A0CCA5 /* HeaderView.swift in Sources */,
 				F8150018219C195500A0CCA5 /* DetailViewController.swift in Sources */,
+				F815002B219D039000A0CCA5 /* TouchTransparentStackView.swift in Sources */,
 				F8150020219C1A2900A0CCA5 /* PageInnerTableViewController.swift in Sources */,
 				F8B1B00F219BFBDE0046992E /* ViewController.swift in Sources */,
+				F815002D219D0B5000A0CCA5 /* TouchTransparentImageView.swift in Sources */,
 				5C1CEFDB219C519000F73CFD /* TouchTransparentView.swift in Sources */,
 				F8B1B00D219BFBDE0046992E /* AppDelegate.swift in Sources */,
 			);
